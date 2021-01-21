@@ -4,5 +4,5 @@ import com.google.gson.annotations.SerializedName
 
 data class ResponseMeta(
     @SerializedName("meta")
-    private var meta: Meta? = null
+    var meta: Meta? = null
 )

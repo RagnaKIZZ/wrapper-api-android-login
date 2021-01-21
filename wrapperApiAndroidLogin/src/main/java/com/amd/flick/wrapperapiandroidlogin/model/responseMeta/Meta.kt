@@ -4,8 +4,8 @@ import com.google.gson.annotations.SerializedName
 
 data class Meta(
     @SerializedName("code")
-    private var code: String? = null,
+    var code: String? = null,
 
     @SerializedName("message")
-    private val message: String? = null
+    val message: String? = null
 )
