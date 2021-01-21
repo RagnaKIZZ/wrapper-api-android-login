@@ -3,7 +3,7 @@ silvi wrapper api
 
 ### How To Use
      dependencies {
-     	        implementation 'com.github.RagnaKIZZ:wrapper-api-android-login:Tag'
+     	        implementation 'com.github.RagnaKIZZ:wrapper-api-android-login:1.0.3'
      	}
      
      
@@ -35,15 +35,7 @@ silvi wrapper api
             },
             onError = {
                 //handle error
-                when (it) {
-                    is IOException -> {
-                        // do something when ioexception
-                    }
-
-                    is ANError -> {
-                        // do something when ANError
-                    }
-                }
+                
             }
         )
 ```        
@@ -62,15 +54,7 @@ silvi wrapper api
             },
             onError = {
                 //handle error
-                when (it) {
-                    is IOException -> {
-                        // do something when ioexception
-                    }
-
-                    is ANError -> {
-                        // do something when ANError
-                    }
-                }
+              
             }
         )
 ```        
@@ -97,15 +81,7 @@ silvi wrapper api
             },
             onError = {
                 //handle error
-                when (it) {
-                    is IOException -> {
-                        // do something when ioexception
-                    }
-
-                    is ANError -> {
-                        // do something when ANError
-                    }
-                }
+               
             }
         )
  ```       
@@ -131,15 +107,7 @@ silvi wrapper api
             },
             onError = {
                 //handle error
-                when (it) {
-                    is IOException -> {
-                        // do something when ioexception
-                    }
-
-                    is ANError -> {
-                        // do something when ANError
-                    }
-                }
+              
             }
         )
 ```        
@@ -165,15 +133,7 @@ silvi wrapper api
             },
             onError = {
                 //handle error
-                when (it) {
-                    is IOException -> {
-                        // do something when ioexception
-                    }
-
-                    is ANError -> {
-                        // do something when ANError
-                    }
-                }
+               
             }
         )
 ```        
@@ -199,15 +159,7 @@ silvi wrapper api
             },
             onError = {
                 //handle error
-                when (it) {
-                    is IOException -> {
-                        // do something when ioexception
-                    }
-
-                    is ANError -> {
-                        // do something when ANError
-                    }
-                }
+               
             }
         )
         
